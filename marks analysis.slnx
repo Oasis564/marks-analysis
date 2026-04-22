@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="marks analysis/marks analysis.vcxproj" Id="ac70c80e-2e97-4d6c-87c4-106945c62f85" />
+</Solution>
