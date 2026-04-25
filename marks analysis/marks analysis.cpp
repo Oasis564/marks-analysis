@@ -21,6 +21,18 @@ void stars()
         }
         cout << endl;
     }
+
+    cout << "==========While Loop Below===========" << endl;
+    int i = 1;
+    while (i <= row) {
+        int j = 1;
+        while (j <= i) {
+            cout << "* ";
+            j += 1;
+        }
+        cout << endl;
+        i += 1;
+    }
 }
 
 void revstars()
@@ -37,8 +49,21 @@ void revstars()
     }
 }
 
+void whilestars() {
+    int row = 5, i = 1;
+
+    while(i <= row){
+        int j = 1;
+        while (j <= i) {
+            cout << "* ";
+            j += 1;
+        }
+        cout << endl;
+        i += 1;
+    }
+
+}
+
 int main() {
-    stars();
-    cout << "---------------------" << endl;
-    revstars();
+    whilestars();
 }
