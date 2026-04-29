@@ -64,6 +64,21 @@ void whilestars() {
 
 }
 
+void dowhilestars() {
+    int row = 10, i = 1;
+
+    do{
+        int j = 1;
+        do {
+            cout << "* ";
+            j += 1;
+        } while (j <= i);
+    } while (i <= row);
+    cout << endl;
+    i += 1;
+    
+}
+
 int main() {
-    whilestars();
+    dowhilestars();
 }
